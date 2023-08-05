@@ -21,5 +21,10 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Metropolis-Light.ttf</string>
+		<string>Metropolis-Regular.ttf</string>
+	</array>
 </dict>
 </plist>
