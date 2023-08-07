@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F51162C57262473D48A603A7D7526FA /* BonsaiController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4099A55B66AB614897C9D4BE07E2C290 /* BonsaiController-dummy.m */; };
+		22924EC35B5B7EFF8EBF0E8F71CBC045 /* BonsaiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D64D1034C10355A36A347D758AA5AD /* BonsaiController.swift */; };
+		258371183B2720B9503007A1770361FE /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF9B2349EC9941910D630B99B96263 /* SlideInTransition.swift */; };
+		7BC19B0EEF156E03B9C0A2559282DAAC /* BubbleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B7233B429CCE01004D12C6A5B7330 /* BubbleTransition.swift */; };
+		8A91A3C9E0D3F9A768873E1BB5647AD3 /* Pods-Notely-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75023F860D97272220EFDB4EA334E57C /* Pods-Notely-dummy.m */; };
+		A0FBD9974F044B4674306339C8E46A89 /* Pods-Notely-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D11830C0DB386119EB5FD61D01A5389 /* Pods-Notely-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC5BA32A00344CE653335FD57CE5EA81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D09331DD1E407BE63089706F3A6D4540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F3D855C69064E16D00C7CB408C3D4A21 /* BonsaiController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7946005E48C2B1CB0FF03A924689C5FD /* BonsaiController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09E90726F2A59FBD652C3DA1EA34C7C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC272E5264771C98573AEA8FB92240D;
+			remoteInfo = BonsaiController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		194767B5EB537978D0EC3EFD93C537F3 /* Pods-Notely-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Notely-acknowledgements.plist"; sourceTree = "<group>"; };
+		1EAA82BB193F6047A87B95B9CE8B9253 /* BonsaiController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BonsaiController.modulemap; sourceTree = "<group>"; };
+		1EAC2B6F65D7C7B24C4ABE62EB1218C4 /* Pods-Notely-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Notely-Info.plist"; sourceTree = "<group>"; };
+		224B553C87498EBF99B3F00443FCFDE0 /* BonsaiController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BonsaiController-Info.plist"; sourceTree = "<group>"; };
+		27B91A616D3E3D080255C6C93A591F62 /* BonsaiController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BonsaiController; path = BonsaiController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D64D1034C10355A36A347D758AA5AD /* BonsaiController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BonsaiController.swift; path = BonsaiController/Classes/BonsaiController.swift; sourceTree = "<group>"; };
+		4099A55B66AB614897C9D4BE07E2C290 /* BonsaiController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BonsaiController-dummy.m"; sourceTree = "<group>"; };
+		485762FEA42A27E58992675829181C3A /* BonsaiController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BonsaiController.debug.xcconfig; sourceTree = "<group>"; };
+		4C8208E81B24FCB372BD14E88AF21EF2 /* Pods-Notely */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Notely"; path = Pods_Notely.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D11830C0DB386119EB5FD61D01A5389 /* Pods-Notely-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Notely-umbrella.h"; sourceTree = "<group>"; };
+		4DA40056741FA49E288EB328FB38E736 /* Pods-Notely-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Notely-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75023F860D97272220EFDB4EA334E57C /* Pods-Notely-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Notely-dummy.m"; sourceTree = "<group>"; };
+		7946005E48C2B1CB0FF03A924689C5FD /* BonsaiController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BonsaiController-umbrella.h"; sourceTree = "<group>"; };
+		8354F7FC89067D2E68D0DFFEBE663FE9 /* BonsaiController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BonsaiController-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A02C91C3E3436574C37C6710E8E8BFD1 /* Pods-Notely-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Notely-frameworks.sh"; sourceTree = "<group>"; };
+		C626D30A442C953175D5652D08451779 /* Pods-Notely.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Notely.modulemap"; sourceTree = "<group>"; };
+		C76409823639062816258ED757030739 /* Pods-Notely.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Notely.debug.xcconfig"; sourceTree = "<group>"; };
+		C835FC6CB8959C87065910ECA5E02593 /* BonsaiController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BonsaiController.release.xcconfig; sourceTree = "<group>"; };
+		DC744FC7ADC183EC86DDA08B1FF55F42 /* Pods-Notely.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Notely.release.xcconfig"; sourceTree = "<group>"; };
+		DEFF9B2349EC9941910D630B99B96263 /* SlideInTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideInTransition.swift; path = BonsaiController/Classes/SlideInTransition.swift; sourceTree = "<group>"; };
+		EE8B7233B429CCE01004D12C6A5B7330 /* BubbleTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleTransition.swift; path = BonsaiController/Classes/BubbleTransition.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56F384568BD2009BA7732F924822B599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09331DD1E407BE63089706F3A6D4540 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D6B6CD4A3923381943802044986710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5BA32A00344CE653335FD57CE5EA81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B6525944DDFA63CADF384DACC318A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27B91A616D3E3D080255C6C93A591F62 /* BonsaiController */,
+				4C8208E81B24FCB372BD14E88AF21EF2 /* Pods-Notely */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16ED7C04C1E3FA3F1327483458F7D26C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ED08E16D7A5CBEBC379D52A06367D2B /* BonsaiController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		79DFA1AABC5D73DB160A7A66380D68CA /* Pods-Notely */ = {
+			isa = PBXGroup;
+			children = (
+				C626D30A442C953175D5652D08451779 /* Pods-Notely.modulemap */,
+				4DA40056741FA49E288EB328FB38E736 /* Pods-Notely-acknowledgements.markdown */,
+				194767B5EB537978D0EC3EFD93C537F3 /* Pods-Notely-acknowledgements.plist */,
+				75023F860D97272220EFDB4EA334E57C /* Pods-Notely-dummy.m */,
+				A02C91C3E3436574C37C6710E8E8BFD1 /* Pods-Notely-frameworks.sh */,
+				1EAC2B6F65D7C7B24C4ABE62EB1218C4 /* Pods-Notely-Info.plist */,
+				4D11830C0DB386119EB5FD61D01A5389 /* Pods-Notely-umbrella.h */,
+				C76409823639062816258ED757030739 /* Pods-Notely.debug.xcconfig */,
+				DC744FC7ADC183EC86DDA08B1FF55F42 /* Pods-Notely.release.xcconfig */,
+			);
+			name = "Pods-Notely";
+			path = "Target Support Files/Pods-Notely";
+			sourceTree = "<group>";
+		};
+		9ED08E16D7A5CBEBC379D52A06367D2B /* BonsaiController */ = {
+			isa = PBXGroup;
+			children = (
+				37D64D1034C10355A36A347D758AA5AD /* BonsaiController.swift */,
+				EE8B7233B429CCE01004D12C6A5B7330 /* BubbleTransition.swift */,
+				DEFF9B2349EC9941910D630B99B96263 /* SlideInTransition.swift */,
+				DCE212D88426C24706C2C62FB4F443FE /* Support Files */,
+			);
+			name = BonsaiController;
+			path = BonsaiController;
+			sourceTree = "<group>";
+		};
+		BDCF7053CF4167651DAA4F9CA5387557 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79DFA1AABC5D73DB160A7A66380D68CA /* Pods-Notely */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				16ED7C04C1E3FA3F1327483458F7D26C /* Pods */,
+				04B6525944DDFA63CADF384DACC318A8 /* Products */,
+				BDCF7053CF4167651DAA4F9CA5387557 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCE212D88426C24706C2C62FB4F443FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA82BB193F6047A87B95B9CE8B9253 /* BonsaiController.modulemap */,
+				4099A55B66AB614897C9D4BE07E2C290 /* BonsaiController-dummy.m */,
+				224B553C87498EBF99B3F00443FCFDE0 /* BonsaiController-Info.plist */,
+				8354F7FC89067D2E68D0DFFEBE663FE9 /* BonsaiController-prefix.pch */,
+				7946005E48C2B1CB0FF03A924689C5FD /* BonsaiController-umbrella.h */,
+				485762FEA42A27E58992675829181C3A /* BonsaiController.debug.xcconfig */,
+				C835FC6CB8959C87065910ECA5E02593 /* BonsaiController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BonsaiController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D3703DE821601C4C04E94C2CA022F16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D855C69064E16D00C7CB408C3D4A21 /* BonsaiController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA0FD8D7ED8A3E87380FB1A9D98353D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FBD9974F044B4674306339C8E46A89 /* Pods-Notely-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FC272E5264771C98573AEA8FB92240D /* BonsaiController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 705787B825B07A366EE069D0287B2BFE /* Build configuration list for PBXNativeTarget "BonsaiController" */;
+			buildPhases = (
+				1D3703DE821601C4C04E94C2CA022F16 /* Headers */,
+				BC199E6C30EED9D448F94AA6C4E6BA00 /* Sources */,
+				56F384568BD2009BA7732F924822B599 /* Frameworks */,
+				03E6017D68451D4E9D57D5B982BDCADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonsaiController;
+			productName = BonsaiController;
+			productReference = 27B91A616D3E3D080255C6C93A591F62 /* BonsaiController */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C4AA5EDAFB807CE7575FED0AB211A40 /* Pods-Notely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E08D93CAE043831E1699A3BAD8AB8D /* Build configuration list for PBXNativeTarget "Pods-Notely" */;
+			buildPhases = (
+				9BA0FD8D7ED8A3E87380FB1A9D98353D /* Headers */,
+				D62A66D872FA3A9192F2C806CEE5BA3D /* Sources */,
+				D1D6B6CD4A3923381943802044986710 /* Frameworks */,
+				9536C44304B6730473E63AAEB7B31B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5DAF5737B65A419B397F4D2B7B96745 /* PBXTargetDependency */,
+			);
+			name = "Pods-Notely";
+			productName = Pods_Notely;
+			productReference = 4C8208E81B24FCB372BD14E88AF21EF2 /* Pods-Notely */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 04B6525944DDFA63CADF384DACC318A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC272E5264771C98573AEA8FB92240D /* BonsaiController */,
+				3C4AA5EDAFB807CE7575FED0AB211A40 /* Pods-Notely */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E6017D68451D4E9D57D5B982BDCADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9536C44304B6730473E63AAEB7B31B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC199E6C30EED9D448F94AA6C4E6BA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22924EC35B5B7EFF8EBF0E8F71CBC045 /* BonsaiController.swift in Sources */,
+				0F51162C57262473D48A603A7D7526FA /* BonsaiController-dummy.m in Sources */,
+				7BC19B0EEF156E03B9C0A2559282DAAC /* BubbleTransition.swift in Sources */,
+				258371183B2720B9503007A1770361FE /* SlideInTransition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62A66D872FA3A9192F2C806CEE5BA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A91A3C9E0D3F9A768873E1BB5647AD3 /* Pods-Notely-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5DAF5737B65A419B397F4D2B7B96745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BonsaiController;
+			target = 2FC272E5264771C98573AEA8FB92240D /* BonsaiController */;
+			targetProxy = 09E90726F2A59FBD652C3DA1EA34C7C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0068595B4BCC3AADC84BB773F44F593A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC744FC7ADC183EC86DDA08B1FF55F42 /* Pods-Notely.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Notely/Pods-Notely-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Notely/Pods-Notely.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		73C17474FB6A784F818C5E8DE3AB9E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485762FEA42A27E58992675829181C3A /* BonsaiController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BonsaiController/BonsaiController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BonsaiController/BonsaiController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BonsaiController/BonsaiController.modulemap";
+				PRODUCT_MODULE_NAME = BonsaiController;
+				PRODUCT_NAME = BonsaiController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BF401980123BD8A28D4F9E8BBA3D3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C76409823639062816258ED757030739 /* Pods-Notely.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Notely/Pods-Notely-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Notely/Pods-Notely.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FA3CA0E707E4643CC5093AEEE4E0436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C835FC6CB8959C87065910ECA5E02593 /* BonsaiController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BonsaiController/BonsaiController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BonsaiController/BonsaiController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BonsaiController/BonsaiController.modulemap";
+				PRODUCT_MODULE_NAME = BonsaiController;
+				PRODUCT_NAME = BonsaiController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E08D93CAE043831E1699A3BAD8AB8D /* Build configuration list for PBXNativeTarget "Pods-Notely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF401980123BD8A28D4F9E8BBA3D3F9 /* Debug */,
+				0068595B4BCC3AADC84BB773F44F593A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		705787B825B07A366EE069D0287B2BFE /* Build configuration list for PBXNativeTarget "BonsaiController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C17474FB6A784F818C5E8DE3AB9E01 /* Debug */,
+				8FA3CA0E707E4643CC5093AEEE4E0436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

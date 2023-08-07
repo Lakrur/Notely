@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4079EA6F0783A48EB10C3CC8 /* Pods_Notely.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C902B03FA89E86A6A364351D /* Pods_Notely.framework */; };
 		78AD726D2A7EAD980082D080 /* Metropolis-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78AD725B2A7EAD980082D080 /* Metropolis-Light.ttf */; };
 		78AD726E2A7EAD980082D080 /* Metropolis-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78AD725C2A7EAD980082D080 /* Metropolis-Regular.ttf */; };
 		78AD726F2A7EAD980082D080 /* Metropolis-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78AD725D2A7EAD980082D080 /* Metropolis-RegularItalic.ttf */; };
@@ -27,6 +28,8 @@
 		78AD727E2A7EAD980082D080 /* Metropolis-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78AD726C2A7EAD980082D080 /* Metropolis-Black.ttf */; };
 		78AD72802A7EBF180082D080 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD727F2A7EBF180082D080 /* StartViewController.swift */; };
 		78AD72822A7EFE080082D080 /* MainLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD72812A7EFE080082D080 /* MainLoginViewController.swift */; };
+		78AD72842A8119D10082D080 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD72832A8119D10082D080 /* SignInViewController.swift */; };
+		78AD72862A8119DA0082D080 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD72852A8119DA0082D080 /* SignUpViewController.swift */; };
 		78F4DF4D2A7DBB420063EC1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F4DF4C2A7DBB420063EC1E /* AppDelegate.swift */; };
 		78F4DF4F2A7DBB420063EC1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F4DF4E2A7DBB420063EC1E /* SceneDelegate.swift */; };
 		78F4DF512A7DBB420063EC1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F4DF502A7DBB420063EC1E /* ViewController.swift */; };
@@ -36,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65AE7F1F8DB798D1C7968D76 /* Pods-Notely.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notely.release.xcconfig"; path = "Target Support Files/Pods-Notely/Pods-Notely.release.xcconfig"; sourceTree = "<group>"; };
 		78AD725B2A7EAD980082D080 /* Metropolis-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Light.ttf"; sourceTree = "<group>"; };
 		78AD725C2A7EAD980082D080 /* Metropolis-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Regular.ttf"; sourceTree = "<group>"; };
 		78AD725D2A7EAD980082D080 /* Metropolis-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-RegularItalic.ttf"; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		78AD726C2A7EAD980082D080 /* Metropolis-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Black.ttf"; sourceTree = "<group>"; };
 		78AD727F2A7EBF180082D080 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		78AD72812A7EFE080082D080 /* MainLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLoginViewController.swift; sourceTree = "<group>"; };
+		78AD72832A8119D10082D080 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		78AD72852A8119DA0082D080 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		78F4DF492A7DBB420063EC1E /* Notely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notely.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F4DF4C2A7DBB420063EC1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78F4DF4E2A7DBB420063EC1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +70,8 @@
 		78F4DF552A7DBB440063EC1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78F4DF582A7DBB440063EC1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78F4DF5A2A7DBB440063EC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C902B03FA89E86A6A364351D /* Pods_Notely.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notely.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B5F351D869646E5F058700 /* Pods-Notely.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notely.debug.xcconfig"; path = "Target Support Files/Pods-Notely/Pods-Notely.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +79,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4079EA6F0783A48EB10C3CC8 /* Pods_Notely.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BE0083D84902281B0E79475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C902B03FA89E86A6A364351D /* Pods_Notely.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		78AD725A2A7EAD980082D080 /* font */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +125,8 @@
 				78AD725A2A7EAD980082D080 /* font */,
 				78F4DF4B2A7DBB420063EC1E /* Notely */,
 				78F4DF4A2A7DBB420063EC1E /* Products */,
+				B543D71BD3CA46B7CFB611DD /* Pods */,
+				5BE0083D84902281B0E79475 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +145,8 @@
 				78F4DF4E2A7DBB420063EC1E /* SceneDelegate.swift */,
 				78AD727F2A7EBF180082D080 /* StartViewController.swift */,
 				78AD72812A7EFE080082D080 /* MainLoginViewController.swift */,
+				78AD72832A8119D10082D080 /* SignInViewController.swift */,
+				78AD72852A8119DA0082D080 /* SignUpViewController.swift */,
 				78F4DF502A7DBB420063EC1E /* ViewController.swift */,
 				78F4DF522A7DBB420063EC1E /* Main.storyboard */,
 				78F4DF552A7DBB440063EC1E /* Assets.xcassets */,
@@ -135,6 +156,16 @@
 			path = Notely;
 			sourceTree = "<group>";
 		};
+		B543D71BD3CA46B7CFB611DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8B5F351D869646E5F058700 /* Pods-Notely.debug.xcconfig */,
+				65AE7F1F8DB798D1C7968D76 /* Pods-Notely.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78F4DF5D2A7DBB440063EC1E /* Build configuration list for PBXNativeTarget "Notely" */;
 			buildPhases = (
+				1B9BE0A384B10A89FA494765 /* [CP] Check Pods Manifest.lock */,
 				78F4DF452A7DBB420063EC1E /* Sources */,
 				78F4DF462A7DBB420063EC1E /* Frameworks */,
 				78F4DF472A7DBB420063EC1E /* Resources */,
+				C92C00943EE8CC7984A899D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,11 +252,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B9BE0A384B10A89FA494765 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notely-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C92C00943EE8CC7984A899D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Notely/Pods-Notely-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Notely/Pods-Notely-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Notely/Pods-Notely-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		78F4DF452A7DBB420063EC1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78AD72842A8119D10082D080 /* SignInViewController.swift in Sources */,
+				78AD72862A8119DA0082D080 /* SignUpViewController.swift in Sources */,
 				78AD72822A7EFE080082D080 /* MainLoginViewController.swift in Sources */,
 				78F4DF512A7DBB420063EC1E /* ViewController.swift in Sources */,
 				78AD72802A7EBF180082D080 /* StartViewController.swift in Sources */,
@@ -370,6 +447,7 @@
 		};
 		78F4DF5E2A7DBB440063EC1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B5F351D869646E5F058700 /* Pods-Notely.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -398,6 +476,7 @@
 		};
 		78F4DF5F2A7DBB440063EC1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65AE7F1F8DB798D1C7968D76 /* Pods-Notely.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

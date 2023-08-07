@@ -1,0 +1,6 @@
+framework module Pods_Notely {
+  umbrella header "Pods-Notely-umbrella.h"
+
+  export *
+  module * { export * }
+}
