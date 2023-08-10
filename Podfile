@@ -7,6 +7,6 @@ target 'Notely' do
 
   # Pods for Notely
 
- pod 'BonsaiController'
+ pod 'SPStorkController'
 
 end

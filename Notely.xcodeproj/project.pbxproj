@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4079EA6F0783A48EB10C3CC8 /* Pods_Notely.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C902B03FA89E86A6A364351D /* Pods_Notely.framework */; };
+		785B37982A81A84D001428C1 /* AddLeftImageToTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B37972A81A84D001428C1 /* AddLeftImageToTxtField.swift */; };
+		785B379A2A81A86F001428C1 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B37992A81A86F001428C1 /* NotesViewController.swift */; };
 		78AD726D2A7EAD980082D080 /* Metropolis-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78AD725B2A7EAD980082D080 /* Metropolis-Light.ttf */; };
 		78AD726E2A7EAD980082D080 /* Metropolis-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78AD725C2A7EAD980082D080 /* Metropolis-Regular.ttf */; };
 		78AD726F2A7EAD980082D080 /* Metropolis-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78AD725D2A7EAD980082D080 /* Metropolis-RegularItalic.ttf */; };
@@ -30,6 +32,7 @@
 		78AD72822A7EFE080082D080 /* MainLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD72812A7EFE080082D080 /* MainLoginViewController.swift */; };
 		78AD72842A8119D10082D080 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD72832A8119D10082D080 /* SignInViewController.swift */; };
 		78AD72862A8119DA0082D080 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD72852A8119DA0082D080 /* SignUpViewController.swift */; };
+		78C793AE2A8502BA00ACFCBA /* UIViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C793AD2A8502BA00ACFCBA /* UIViewSize.swift */; };
 		78F4DF4D2A7DBB420063EC1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F4DF4C2A7DBB420063EC1E /* AppDelegate.swift */; };
 		78F4DF4F2A7DBB420063EC1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F4DF4E2A7DBB420063EC1E /* SceneDelegate.swift */; };
 		78F4DF512A7DBB420063EC1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F4DF502A7DBB420063EC1E /* ViewController.swift */; };
@@ -40,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		65AE7F1F8DB798D1C7968D76 /* Pods-Notely.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notely.release.xcconfig"; path = "Target Support Files/Pods-Notely/Pods-Notely.release.xcconfig"; sourceTree = "<group>"; };
+		785B37972A81A84D001428C1 /* AddLeftImageToTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLeftImageToTxtField.swift; sourceTree = "<group>"; };
+		785B37992A81A86F001428C1 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		78AD725B2A7EAD980082D080 /* Metropolis-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Light.ttf"; sourceTree = "<group>"; };
 		78AD725C2A7EAD980082D080 /* Metropolis-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Regular.ttf"; sourceTree = "<group>"; };
 		78AD725D2A7EAD980082D080 /* Metropolis-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-RegularItalic.ttf"; sourceTree = "<group>"; };
@@ -62,6 +67,7 @@
 		78AD72812A7EFE080082D080 /* MainLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLoginViewController.swift; sourceTree = "<group>"; };
 		78AD72832A8119D10082D080 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		78AD72852A8119DA0082D080 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		78C793AD2A8502BA00ACFCBA /* UIViewSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewSize.swift; sourceTree = "<group>"; };
 		78F4DF492A7DBB420063EC1E /* Notely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notely.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F4DF4C2A7DBB420063EC1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78F4DF4E2A7DBB420063EC1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +125,48 @@
 			path = font;
 			sourceTree = "<group>";
 		};
+		78C793A72A84FF5B00ACFCBA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				78AD727F2A7EBF180082D080 /* StartViewController.swift */,
+				78AD72812A7EFE080082D080 /* MainLoginViewController.swift */,
+				78AD72832A8119D10082D080 /* SignInViewController.swift */,
+				78AD72852A8119DA0082D080 /* SignUpViewController.swift */,
+				785B37992A81A86F001428C1 /* NotesViewController.swift */,
+				78F4DF502A7DBB420063EC1E /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		78C793A82A84FF7200ACFCBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				785B37972A81A84D001428C1 /* AddLeftImageToTxtField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78C793A92A84FF8800ACFCBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78F4DF522A7DBB420063EC1E /* Main.storyboard */,
+				78F4DF4C2A7DBB420063EC1E /* AppDelegate.swift */,
+				78F4DF4E2A7DBB420063EC1E /* SceneDelegate.swift */,
+				78F4DF552A7DBB440063EC1E /* Assets.xcassets */,
+				78F4DF572A7DBB440063EC1E /* LaunchScreen.storyboard */,
+				78F4DF5A2A7DBB440063EC1E /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78C793AA2A85002100ACFCBA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				78C793AD2A8502BA00ACFCBA /* UIViewSize.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		78F4DF402A7DBB420063EC1E = {
 			isa = PBXGroup;
 			children = (
@@ -141,17 +189,10 @@
 		78F4DF4B2A7DBB420063EC1E /* Notely */ = {
 			isa = PBXGroup;
 			children = (
-				78F4DF4C2A7DBB420063EC1E /* AppDelegate.swift */,
-				78F4DF4E2A7DBB420063EC1E /* SceneDelegate.swift */,
-				78AD727F2A7EBF180082D080 /* StartViewController.swift */,
-				78AD72812A7EFE080082D080 /* MainLoginViewController.swift */,
-				78AD72832A8119D10082D080 /* SignInViewController.swift */,
-				78AD72852A8119DA0082D080 /* SignUpViewController.swift */,
-				78F4DF502A7DBB420063EC1E /* ViewController.swift */,
-				78F4DF522A7DBB420063EC1E /* Main.storyboard */,
-				78F4DF552A7DBB440063EC1E /* Assets.xcassets */,
-				78F4DF572A7DBB440063EC1E /* LaunchScreen.storyboard */,
-				78F4DF5A2A7DBB440063EC1E /* Info.plist */,
+				78C793AA2A85002100ACFCBA /* Extensions */,
+				78C793A82A84FF7200ACFCBA /* Views */,
+				78C793A72A84FF5B00ACFCBA /* ViewControllers */,
+				78C793A92A84FF8800ACFCBA /* Supporting Files */,
 			);
 			path = Notely;
 			sourceTree = "<group>";
@@ -162,7 +203,6 @@
 				F8B5F351D869646E5F058700 /* Pods-Notely.debug.xcconfig */,
 				65AE7F1F8DB798D1C7968D76 /* Pods-Notely.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -300,10 +340,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				78AD72842A8119D10082D080 /* SignInViewController.swift in Sources */,
+				78C793AE2A8502BA00ACFCBA /* UIViewSize.swift in Sources */,
 				78AD72862A8119DA0082D080 /* SignUpViewController.swift in Sources */,
 				78AD72822A7EFE080082D080 /* MainLoginViewController.swift in Sources */,
 				78F4DF512A7DBB420063EC1E /* ViewController.swift in Sources */,
 				78AD72802A7EBF180082D080 /* StartViewController.swift in Sources */,
+				785B379A2A81A86F001428C1 /* NotesViewController.swift in Sources */,
+				785B37982A81A84D001428C1 /* AddLeftImageToTxtField.swift in Sources */,
 				78F4DF4D2A7DBB420063EC1E /* AppDelegate.swift in Sources */,
 				78F4DF4F2A7DBB420063EC1E /* SceneDelegate.swift in Sources */,
 			);
@@ -455,7 +498,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AQPM435HZ6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Notely/Info.plist;
+				INFOPLIST_FILE = "Notely/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -484,7 +527,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AQPM435HZ6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Notely/Info.plist;
+				INFOPLIST_FILE = "Notely/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

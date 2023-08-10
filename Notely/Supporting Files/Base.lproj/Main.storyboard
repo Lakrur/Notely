@@ -174,20 +174,56 @@
             </objects>
             <point key="canvasLocation" x="832.82442748091603" y="-2.1126760563380285"/>
         </scene>
-        <!--View Controller-->
+        <!--Notes View Controller-->
         <scene sceneID="Pzu-Xy-HjH">
             <objects>
-                <viewController id="TzV-cB-2hD" sceneMemberID="viewController">
+                <viewController id="TzV-cB-2hD" customClass="NotesViewController" customModule="Notely" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qen-fM-U4U">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Notes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7V-wm-ffz">
+                                <rect key="frame" x="31" y="95" width="116" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Metropolis-Medium" family="Metropolis" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="acw-3g-Hj1">
+                                <rect key="frame" x="336" y="94" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search anything" textAlignment="natural" minimumFontSize="17" disabledBackground="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="1IT-2u-aoI">
+                                <rect key="frame" x="31" y="135" width="330" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="nia-2K-1ao">
+                                <rect key="frame" x="31" y="181" width="330" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <segments>
+                                    <segment title="All Notes"/>
+                                    <segment title="Reminder"/>
+                                    <segment title="Audio"/>
+                                    <segment title="Images"/>
+                                </segments>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="selectedSegmentTintColor" red="0.39520335200000001" green="0.44867604970000002" blue="0.89808243509999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </segmentedControl>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Ym2-U8-bTv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="segmentedControl" destination="nia-2K-1ao" id="ytz-Bl-O7B"/>
+                        <outlet property="textField" destination="1IT-2u-aoI" id="NhT-Mk-vHE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EFs-Vf-Y26" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2648" y="-2"/>
+            <point key="canvasLocation" x="2646.5648854961833" y="-2.1126760563380285"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="6Mp-4L-GX4">
@@ -410,6 +446,7 @@
     <resources>
         <image name="letsStart" width="204" height="94"/>
         <image name="logo" width="621" height="505"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="startscreen" width="736" height="473"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
